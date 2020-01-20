@@ -57,10 +57,10 @@ public enum BrowserManagerEnum {
     public BrowserManager getBrowserManager() {
         switch( this ) {
         case CHROME:        return ChromeDriverManager.getInstance().version( "2.24" );
+        case MARIONETTE:
         case FIREFOX:       return FirefoxDriverManager.getInstance();
         case EDGE:          return EdgeDriverManager.getInstance();
         case IE:            return InternetExplorerDriverManager.getInstance();
-        case MARIONETTE:    return FirefoxDriverManager.getInstance();
         case OPERA:         return OperaDriverManager.getInstance();
         case PHANTOMJS:     return PhantomJsDriverManager.getInstance();
         case NONE: default: return VoidDriverManager.getInstance().version( "1" );
@@ -74,10 +74,10 @@ public enum BrowserManagerEnum {
     public WebDriver getDriver() {
         switch( this ) {
         case CHROME:     return new ChromeDriver();
+        case MARIONETTE:
         case FIREFOX:    return new FirefoxDriver();
         case EDGE:       return new EdgeDriver();
         case IE:         return new InternetExplorerDriver();
-        case MARIONETTE: return new FirefoxDriver();
         case OPERA:      return new OperaDriver();
         case PHANTOMJS:  return new PhantomJSDriver();
         case NONE: default:
