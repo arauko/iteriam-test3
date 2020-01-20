@@ -96,13 +96,14 @@ Por ejemplo
 
 Ejecutaremos el siguiente comando:
 
-`git clone https://gitlab.com/omaroterofdez/iteriam-test3.git`
+`git clone https://github.com/arauko/iteriam-test3.git`
 
-Nos solicitará un usuario y una contraseña de nuestro Usuario de GitLab.
+Nos solicitará un usuario y una contraseña de nuestro Usuario de GitHub.
 
 Para nuestro caso, hemos procedido a crear un usuario que podrá ser usado para este fin:
-Username: mogenoc335@it-smart.org
-password: iteriamTest
+Username: noyipo6083
+mail: noyipo6083@win-777.net
+password: iteriamTest2020
 
 Una vez completado el clonado, podremos importar el proyecto en nuestro IDE favorito
 
